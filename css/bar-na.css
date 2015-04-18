@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Signika);
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Fugaz+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-image: url(../img/rec.png);
+background-attachment: fixed;
+background-position: top right;
+background-repeat: no-repeat;
+background-size: 100% 100%; -moz-background-size: 100% 100%;
+}
+.menu_bar
+{
+	display: none;
+}
+li
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+}
+header nav
+{
+	background: #000000;
+	height: 100em;
+	width: 6.5em;
+	position: fixed;
+}
+header ul
+{
+	background: #000000;
+	width: 6.5em;
+}
+/*))))))))))))))))))))))))*/
+header  #nave-h li a
+{
+	text-align: center;
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: 'Fugaz One', cursive;*/
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+#nave-h p
+{
+	text-align: center;
+	padding: 1.3em 0 1.3em 0;
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+}
+#nave-h li :hover
+{
+
+	background: white;
+	color: #212121;
+	/*padding: 1em 0 1em 0;*/
+
+}
+#img-hi
+{
+	margin: 0 auto;
+	width: 60%;
+}
+#img-hi img
+{
+	width: 100%;
+}
+#boton-hi
+{
+	margin: 0 auto;
+
+	width: 18em;
+	height: 6em;
+	color: white;
+	background: rgba(255, 98, 98, 1);
+	/*border: solid #ffffff 2px;*/
+	/*border-radius: 7px;*/
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	/*font-family: 'Bangers', cursive;*/
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+}
+#boton-hi:hover
+{
+	background: rgba(255, 148, 148, 1);
+	/*color: black;*/
+}
+#letra-hii 
+{
+	padding: 1em;
+}
+#letra-hii a
+{
+	color: white;
+	font-size: 1.5em;
+}
+#letras h2
+{
+	font-family: 'Anton', sans-serif;
+}
+#letras p
+{
+	font-family: 'Signika', sans-serif;
+}
+/*aki comiensa el footer*/
+/*///////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+footer
+{
+	margin: 4em 0 0 0;
+	background: #1B5E20;
+	padding: 2em 0 0 10em;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+footer #foo-contenido h2
+{
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255,255,255,0.87);
+}
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+footer #foo-contenido p
+{
+	font-family: 'Oswald', sans-serif;
+	color: rgba(255,255,255,0.87);
+}
+#foo-practico, #foo-seguro, #foo-gratuito
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+	padding: 0 3em 4em 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:832px ) {
+	 #img-hi
+	 {
+	 	margin: 0 0 0 6em;
+	 	width: 80%;
+	 }
+	 #boton-hi
+	{
+		margin: 0 0 0 10em;
+	}
+}
+
+/*como como como como como como*/
+@media screen and (max-width:480px ) {
+   header nav {
+      width:7em;
+      height:100%;
+      left:-100%;
+      margin:0;
+      position: fixed;
+   }
+ 
+   header nav ul li {
+      display:block;
+      float:none;
+      border-bottom:1px solid rgba(255,255,255, .3);
+   }
+ 
+   .menu_bar {
+      display:block;
+      width:100%;
+      background:#ccc;
+      font-family: 'Roboto Condensed', sans-serif;
+   }
+ 
+   .menu_bar .bt-menu {
+      display:block;
+      padding:20px;
+      background:#212121;
+      color:#fff;
+      text-decoration:none;
+      font-weight: bold;
+      font-size:25px;
+      -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+      box-sizing:border-box;
+   }
+ 
+   .menu_bar span {
+      float:right;
+      font-size:40px;
+   }
+   #img-hi
+{
+	margin: 0 auto;
+	width: 80%;
+}
+#boton-hi
+{
+	margin: 0 auto;
+
+}
+}

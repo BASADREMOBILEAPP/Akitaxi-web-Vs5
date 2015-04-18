@@ -1,0 +1,28 @@
+#primero-s #letras, #segundo-s #letras, #tercero-s #letras, #cuarto-s #letras
+{
+
+	/*float: left;*/
+	margin: 10% 0  0 15%;
+	width: 40%;
+	
+	color: white;
+}
+/*#primero-s #letras h2,*/ #primero-s #letras p
+{
+	text-shadow: 2px 1px 3px #616061;
+	
+}
+#primero-s #image img, #segundo-s #image img, #tercero-s #image img, #cuarto-s #image img
+{
+	width: 100%;
+}
+#primero-s #image, #segundo-s #image, #tercero-s #image,#cuarto-s #image
+{
+	/*float: right;*/
+	width:20em;
+}
+#letras, #image
+{
+	display: inline-block;
+	vertical-align: top;
+}
